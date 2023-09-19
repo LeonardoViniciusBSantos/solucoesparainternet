@@ -1,0 +1,90 @@
+.form-newsletter {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 2px solid #e93d50;
+    background-color: #e93d50;
+    
+}
+
+.form-newsletter__label {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    
+}
+
+.form-newsletter__campo {
+    padding: .6rem .4rem;
+    flex-grow: 1;
+    border: none;
+    
+}
+
+	
+.form-newsletter__botao {
+    flex-grow: 1;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #e93d50;
+    color: #fff;
+    
+}
+
+@media (max-width: 640px) {
+    .rodape__secao.rodape__secao {
+        margin-top: 2em;
+        
+    }
+
+    
+}
+
+@media(min-width: 640px) {
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 1rem;
+        
+    }
+
+    .rodape__secao--sobre,
+    .rodape__secao--cursos,
+    .rodape__secao--links,
+    .rodape__secao--newsletter {
+        width: 45%;
+        
+    }
+
+    .rodape__secao--cursos {
+        order: 1;
+        margin: 0;
+        
+    }
+
+    .rodape__secao--links {
+        order: 2;
+        margin: 0;
+        
+    }
+
+    .rodape__secao--sobre {
+        order: 3;
+        margin-top: 2em;
+        
+    }
+
+    .rodape__secao--newsletter {
+        order: 4;
+        margin-top: 2em;
+        
+    }
+
+    
+}
